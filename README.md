@@ -12,4 +12,5 @@
 ```
 # split sequence
 python preprocess.py --condition orderDone
+# python preprocess.py --condition orderDone
 ```
