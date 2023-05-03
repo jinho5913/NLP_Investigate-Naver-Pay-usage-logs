@@ -7,7 +7,9 @@
 ### 진행사항
 #### 0423
 * Naver Pay '구매 결정' or '장바구니' 까지 도달한 sequence 구분
+  * orderDone : 구매 결정  
+  * orderSheet : 장바구니
 ```
-# split sequence (4가지 샘플 중 하나)
-python n_orderDone0.py
+# split sequence
+python preprocess.py --condition orderDone
 ```
